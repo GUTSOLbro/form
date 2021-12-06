@@ -54,7 +54,7 @@ function App() {
       }
     } else if (event.target.name == 'password') {
       if (!validationPassword.test(String(event.target.value).toLowerCase())) {
-        setPasswordError('Password is not correct');
+        setPasswordError('8 characters, latin letters, numbers');
         setPasswordStatus(false);
         passwordStatus = false;
       } else {
