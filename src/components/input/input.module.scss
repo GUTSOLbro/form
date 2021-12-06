@@ -1,0 +1,63 @@
+.input{
+    width: 40vw;
+    height: 11vh;
+    outline:none;
+    background-color: inherit;
+    border: 3px white solid;
+    font-size: 28px;
+    padding: 0 2vw;
+    color: rgb(103, 99, 99);
+    letter-spacing: 5pt;
+    margin-bottom: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: 'Special Elite';
+}
+.input__hover {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 11vh;
+    outline:none;
+    margin-bottom: 3vh;
+    background-color: inherit;
+    border: 3px white solid;
+    font-size: 40px;
+    color: rgb(103, 99, 99);
+    padding-top: 1vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5pt;
+}
+.messageError{
+    min-height: 6vh;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Special Elite';
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 2vh;
+}
+
+@media screen and (max-width: 1100px) {
+    .messageError{
+        font-size: 15px;
+    }
+    .input{
+        font-size: 20px;
+    }
+    .input__hover{
+        font-size: 30px;
+    }
+    }
+
+@media screen and (max-width: 600px) {
+.input ,.input__hover {
+    border: 1px solid white;
+    font-size: 20px;
+    height: 7vh;
+}
+.messageError{
+    font-size: 10px;
+}
+}

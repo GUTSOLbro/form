@@ -1,0 +1,23 @@
+.button {
+    position: absolute;
+    transform: translate(-50%,0);
+    bottom: 5vh;
+    left: 50%;
+    width: 40vw;
+    height: 11vh;
+    font-size: 40px;
+    padding: 0 2vw;
+    letter-spacing: 5pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(213, 205, 205);
+    outline: none;
+    border: none;
+    background-color: rgb(177, 18, 124);
+}
+
+@media screen and (max-width: 600px) {
+    .button {
+        font-size: 20px;
+        height: 7vh;
+    }
+    }
